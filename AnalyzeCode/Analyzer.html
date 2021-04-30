@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<lang="ja">
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
+<link rel="stylesheet" href="Analyzer.css">
+<title>楽曲分析</title>
+</head>
+
+<body>
+	<div id="display">
+		<div id="header">
+			<p id="header-title">Code Analyze</p>
+			<div id="header-key">key : Cmajor</div>
+			<div id="header-add">
+			    <p>add</p>
+			</div>
+			<div id="open">
+				<p >open</p>
+			</div>
+			<div id="close">
+				<p>close</p>
+			</div>
+		</div>
+		
+		<div id="main">
+			<div id="title"><p>Analyze Music</p></div>
+			<div id="keyselect">
+			    <p class="key-name">Cmajor</p>
+				<p class="key-name">C#major</p>
+				<p class="key-name">Dmajor</p>
+				<p class="key-name">D#major</p>
+				<p class="key-name">Emajor</p>
+				<p class="key-name">Fmajor</p>
+				<p class="key-name">F#major</p>
+			    <p class="key-name">Gmajor</p>
+				<p class="key-name">G#major</p>
+				<p class="key-name">Amajor</p>
+				<p class="key-name">A#major</p>
+				<p class="key-name">Bmajor</p>
+		    </div>
+			<!--  
+			<div id="project-display">
+				<div id="project-title"><p>Project</p></div>
+				<div id="project-file">
+					<div class="project"></div>
+					<div class="project"></div>
+					<div class="project"></div>
+					<div class="project"></div>
+				</div>
+			</div> -->
+			<div id="analyze-display">
+				 <div class="code-data"> 
+					
+					    <div class="code-box">
+					        <div class="code"><p>code</p></div>
+					    </div>
+					    <div class="interval-box">
+					        <div class="interval"><p>interval</p></div>
+				        </div>
+				</div>
+			</div>
+			<div id="information">
+				<div id="info-head"></div>
+				<div id="info-main"><p>interval : <br>scale:</p></div>
+			</div>
+			
+			<div id="keyboard">
+				<div id="key-top">
+					<div class="top-side-btn" id="key-mark"><p>mark</p></div>
+					<div class="key-btn"><p>A</p></div>
+					<div class="key-btn"><p>B</p></div>
+					<div class="key-btn"><p>C</p></div>
+					<div class="key-btn"><p>D</p></div>
+					<div class="key-btn"><p>E</p></div>
+					<div class="key-btn"><p>F</p></div>
+					<div class="key-btn"><p>G</p></div>
+					<div class="top-side-btn" id="key-delete"><p>Delete</p></div>
+				</div>
+				<div id="key-mid">
+					<div class="mid-side-btn" id="key-code"><p>code</p></div>
+					<div class="key-btn"><p>M</p></div>
+					<div class="key-btn"><p>m</p></div>
+					<div class="key-btn"><p>m7-5</p></div>
+					<div class="key-btn"><p>sus4</p></div>
+					<div class="key-btn"><p>dim</p></div>
+					<div class="key-btn"><p>arg</p></div>
+					<div class="mid-side-btn" id="key-next">
+						<p>→</p>
+					</div>
+				</div>
+				<div id="key-btm">
+				    <div class="btm-side-btn" id="key-tension"><p>tension</p></div>
+					<div class="key-btn"><p>#</p></div>
+					<div class="key-btn"><p>##</p></div>
+					<div class="key-btn"><p>♭</p></div>
+					<div class="key-btn"><p>♭♭</p></div>
+					<div class="key-btn"><p>♮</p></div>
+					<div class="btm-side-btn" id="key-close"><p>close</p></div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="Copy of Analyzer.js" type="text/javascript"></script>
+</body>
+</html>
